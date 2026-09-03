@@ -13,4 +13,3 @@ if Operator is "*":
 if Operator is "/":
     Divide= number1/number2
     print("{}/{}={}".format(number1,number2,Divide))
-
