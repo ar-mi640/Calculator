@@ -14,10 +14,10 @@ def add():
     return"{}+{}={}".format(number1,number2,sum)
 def subtract(number1,number2):
     Subtract=number1-number2
-    print(f"{number1}-{number2}={Subtract}")
+    return f"{number1}-{number2}={Subtract}"
 def multiply(number1,number2):
      Multiply=number1*number2
-    print("{}*{}={}".format(number1,number2,Multiply))
+    return "{}*{}={}".format(number1,number2,Multiply)
 def divide(number1,number2):
      Divide= number1/number2
-    print("{}/{}={}".format(number1,number2,Divide))
+    return "{}/{}={}".format(number1,number2,Divide)
