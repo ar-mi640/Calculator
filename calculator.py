@@ -2,14 +2,22 @@ number1=int(input("Enter your first number : "))
 Operator=input("Operator:")
 number2=int(input("Enter your secon number : "))
 if Operator is "+":
-    sum=number1+number2
-    print("{}+{}={}".format(number1,number2,sum))
+    add(number1,number2)
 if Operator is "-":
+    subtract(number1,number2)
+if Operator is "*":
+    multiply(number1,number2)
+if Operator is "/":
+    divide(number1,number2)
+def add():
+    sum=number1+number2
+    return"{}+{}={}".format(number1,number2,sum)
+def subtract(number1,number2):
     Subtract=number1-number2
     print(f"{number1}-{number2}={Subtract}")
-if Operator is "*":
-    Multiply=number1*number2
+def multiply(number1,number2):
+     Multiply=number1*number2
     print("{}*{}={}".format(number1,number2,Multiply))
-if Operator is "/":
-    Divide= number1/number2
+def divide(number1,number2):
+     Divide= number1/number2
     print("{}/{}={}".format(number1,number2,Divide))
